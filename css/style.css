@@ -55,6 +55,8 @@ width: 80%;
 
 .dream{
     display: flex;
+  
+
    
 }
 .dream-img{
@@ -64,14 +66,27 @@ width: 80%;
     
 
 }
-
+.dream-right{
+    margin-top:30px;
+}
 .dream-left, .dream-right{
     width: 50%;
 }
 
 .dream-left img{
-    width: 70%;
+    width: 80%;
 }
+.dream-right h1{
+    font-size: 30px;
+    line-height: 2;
+    color:orange;
+    
+}
+.dream-right p{
+   
+    width:90%;
+}
+
 .exp .exp-img{
     background: url(../images/exp-bg.png);
     background-repeat: no-repeat;
@@ -79,6 +94,7 @@ width: 80%;
     background-position-y:60px;
     
 }
+
 
 .exp .exp-tittle {
     text-align: center;
@@ -103,7 +119,7 @@ margin:20px 0;
     margin:0 10px;
     text-align: justify;
     padding:20px;
-box-shadow: 6px 3px 30px -3px rgba(0, 0, 0, 0.59);
+box-shadow: 5px 7px 40px grey;
 
 }
 
@@ -115,18 +131,22 @@ box-shadow: 6px 3px 30px -3px rgba(0, 0, 0, 0.59);
 
 .box1{
  border-left: 5px solid orange;
+ border-radius: 20px;
+
 
 }
 
 .box2{
    border-left: 5px solid;
-    border-image: linear-gradient(blue, cyan);
+    border-image: linear-gradient( blue, cyan) ;
     border-image-slice:1;
+    border-radius: 10px;
+
+   
+    
+     
 }
-.footer{
- 
- 
-}
+
 .footer p{
     text-align: center;
 
