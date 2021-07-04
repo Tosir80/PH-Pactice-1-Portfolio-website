@@ -4,10 +4,12 @@
     box-sizing: border-box;
     font-family: 'Poppins',
     sans-serif;
+    text-decoration: none;
 }
 
 
-h1{
+
+ .top-banner h1{
     font-size:50px ;
     padding:10px 0 ;
 }
@@ -70,3 +72,68 @@ width: 80%;
 .dream-left img{
     width: 70%;
 }
+.exp .exp-img{
+    background: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-top:20px;
+    background-position-y:60px;
+    
+}
+
+.exp .exp-tittle {
+    text-align: center;
+    border-bottom: 2px solid orange;
+    display: inline-block;
+}
+
+.box{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+margin:20px 0;
+  justify-content: space-around;
+
+}
+
+
+.box1 , .box2{
+   width: 40%;
+   height: 300px;
+    margin:0 10px;
+    text-align: justify;
+    padding:20px;
+box-shadow: 6px 3px 30px -3px rgba(0, 0, 0, 0.59);
+
+}
+
+.box h3{
+    color:orange;
+}
+
+
+
+.box1{
+ border-left: 5px solid orange;
+
+}
+
+.box2{
+   border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice:1;
+}
+.footer{
+ 
+ 
+}
+.footer p{
+    text-align: center;
+
+}
+
+.footer .copy{
+    color:red;
+}
+
+
